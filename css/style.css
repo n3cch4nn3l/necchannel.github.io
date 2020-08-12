@@ -1,0 +1,39 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 2px 3px lightgrey; 
+}
+.sidenav p{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	padding-left: 30px;
+}
+.right a:hover{
+	font-weight: bold;
+	background-color: white;
+	color: rgba(0 102 102);
+}
+.sidenav li a:hover{
+	background-color: white;
+	color: rgba(0 102 102);
+
+}
+.sidenav li a{
+	color: white;
+}
+.parallax-container{
+	height: 30%;
+}
+.parallax img{
+	filter: grayscale(2);
+	opacity: 0.8 !important;
+}
+.clients img{
+	max-width: 150px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.9));
+}
+
+section, footer{
+	padding: 10px 0;
+}
